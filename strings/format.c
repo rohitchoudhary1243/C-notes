@@ -3,7 +3,7 @@
 #include <math.h>
 int main()
 {
-    char name[40][40];
+    char name[40];
     printf("enter your name: ");
     scanf(" %s ", name); // scanf() cannot input multi word strings with spaces
     printf("your name is: %s", name);
