@@ -12,13 +12,19 @@ int main()
 }
 void countvowels(char str[])
 {
-    int count = 0;
+    int vowels = 0;
+    int consonents = 0;
     for (int i = 0; str[i] != '\0'; i++)
     {
         if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u')
         {
-            count++;
+            vowels++;
+        }
+        else if (str[i] != 'a' && str[i] != 'e' && str[i] != 'i' && str[i] != 'o' && str[i] != 'u')
+        {
+            consonents++;
         }
     }
-    printf("vowels in sentence: %d", count);
+    printf("vowels in sentence: %d\n", vowels);
+    printf("consonents in sentence: %d\n", consonents);
 }
