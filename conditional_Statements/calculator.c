@@ -18,4 +18,4 @@ int main(){
     else if (op=='/'){printf("%f,",a/b);}
     else { printf("you antered wrong value/n");}
 
-}
+} 
