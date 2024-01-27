@@ -1,0 +1,6 @@
+FILE opening modes
+"r" = open to read FILE
+"rb" = open to read in binary form
+"w" = open to write file, if file doesn't exist "w","wb" will create the file
+"wb" = open to write in binary form
+"a" open to append
