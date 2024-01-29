@@ -1,0 +1,2 @@
+total vowels in string are: 5
+total number of consonents are: 22
