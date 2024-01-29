@@ -1,0 +1,3 @@
+student name is:   rohit
+rohit's roll no. is:  2112
+rohit's cgpa is:      100.000000
