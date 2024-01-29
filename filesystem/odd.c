@@ -8,7 +8,7 @@ int main()
     printf("print the n: ");
     scanf("%d", &n);
     fprintf(fptr, "odd numbers from 0 to %d are: \t", n);
-    for (int i = 0; i != n; i++)
+    for (int i = 0; i <= n; i++)
     {
         if (i % 2 != 0)
         {
@@ -17,11 +17,12 @@ int main()
     }
     fprintf(fptr, "even numbers from 0 to %d are \t", n);
 
-    for (int j = 0; j != n; j++)
+    for (int j = 0; j <= n; j++)
     {
         if (j % 2 == 0)
         {
             fprintf(fptr, "%d\n", j);
         }
     }
+    fclose(fptr);
 }
