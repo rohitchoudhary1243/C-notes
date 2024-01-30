@@ -32,4 +32,6 @@ int main()
             printf("%d\t", ptr[j]);
         }
     }
+    free(ptr);
+    
 }
